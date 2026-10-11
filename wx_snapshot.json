@@ -1,0 +1,53 @@
+{
+  "LFMU": {
+    "fetchedAt": "2026-10-10T12:30:00Z",
+    "metar": {
+      "icaoId": "LFMU",
+      "name": "Béziers/Cap d'Agde",
+      "obsTime": 1791635400,
+      "rawOb": "METAR LFMU 101230Z AUTO 31013KT CAVOK 23/12 Q1017 NOSIG",
+      "temp": 23,
+      "dewp": 12,
+      "wdir": 310,
+      "wspd": 13,
+      "wgst": null,
+      "visib": "6+",
+      "altim": 1017,
+      "clouds": [],
+      "fltCat": "VFR"
+    },
+    "taf": {
+      "icaoId": "LFMU",
+      "issueTime": "2026-10-10T08:00:00.000Z",
+      "validTimeFrom": 1791622800,
+      "validTimeTo": 1791709200,
+      "rawTAF": "TAF LFMU 100800Z 1009/1109 30010KT CAVOK BECMG 1020/1022 VRB03KT",
+      "fcsts": [
+        {
+          "timeFrom": 1791622800,
+          "timeTo": 1791662400,
+          "fcstChange": null,
+          "probability": null,
+          "wdir": 300,
+          "wspd": 10,
+          "wgst": null,
+          "visib": "6+",
+          "wxString": "NSW",
+          "clouds": [{"cover":"NSC","base":null}]
+        },
+        {
+          "timeFrom": 1791662400,
+          "timeTo": 1791709200,
+          "fcstChange": "BECMG",
+          "probability": null,
+          "wdir": "VRB",
+          "wspd": 3,
+          "wgst": null,
+          "visib": "6+",
+          "wxString": "NSW",
+          "clouds": [{"cover":"NSC","base":null}]
+        }
+      ]
+    }
+  }
+}
